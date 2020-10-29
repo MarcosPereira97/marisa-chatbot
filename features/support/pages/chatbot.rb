@@ -14,7 +14,6 @@ class Chatbot < Methods
 
   def acessa_site(site)
     visit_site(site)
-    assert_selector(".vinter-spinner")
   end
 
   def preenche_formulario
