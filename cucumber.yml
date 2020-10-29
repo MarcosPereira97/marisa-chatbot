@@ -1,0 +1,12 @@
+default: -p html -p bdd -p json -p chrome
+
+ci: -p chrome_headless -p json -p bdd
+html: --format html --out=data/report/features.html
+dot: --format progress
+bdd: --format pretty
+json: --format json --out="data/report/report.json"
+chrome: BROWSER=chrome
+firefox: BROWSER=firefox
+chrome_headless: BROWSER=chrome_headless
+firefox_headless: -p dot BROWSER=firefox_headless
+retry: --retry 2
