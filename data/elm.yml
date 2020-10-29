@@ -1,0 +1,16 @@
+### Acesso ###
+
+Chatbot:  "https://marisa.virtualinteractions.com.br/pt_BR/avi.html?id=121&source=1&target=1&channel=1&licenseId=VI-88888846-1&ms=1598992207145##forward"
+
+### Formulário ###
+
+nome: "#vinter-loginForm-nome"
+email: "#vinter-loginForm-email"
+telefone:  "#vinter-loginForm-telefone"
+cpf:  "#vinter-loginForm-cpf"
+area_atendimento: "#vinter-loginForm-assunto"
+btn_entrar: "div[class='vinter-loginForm-item-btn']"
+
+### Mensagem erro ###
+
+error_message:  "#vinter-loginForm-subtitle-error"
