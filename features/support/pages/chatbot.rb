@@ -44,7 +44,6 @@ class Chatbot < Methods
   end
 
   def valida_acesso
-    assert_selector(".vinter-spinner")
     valida_texto_na_pagina("Olá, #{@nome}!")
   end
 

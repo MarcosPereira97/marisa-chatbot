@@ -1,4 +1,4 @@
-default: -p html -p bdd -p json -p chrome
+default: -p html -p bdd -p json -p chrome_headless
 
 ci: -p chrome_headless -p json -p bdd
 html: --format html --out=data/report/features.html

@@ -1,5 +1,5 @@
 #language: pt
-@full
+@regressao
 Funcionalidade: Chatbot
 
     Contexto: Acessar o site
